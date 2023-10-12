@@ -104,6 +104,7 @@ final class _VideoPostState extends State<VideoPost>
       _onTogglePause();
     }
     await showModalBottomSheet(
+      isScrollControlled: true,
       shape: RoundedRectangleBorder(
         borderRadius: BorderRadius.circular(
           Sizes.size10,
