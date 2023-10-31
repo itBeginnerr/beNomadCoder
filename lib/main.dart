@@ -4,7 +4,7 @@ import 'package:tiktok_clone/constants/sizes.dart';
 import 'package:tiktok_clone/features/main_navigation/main_navigation_screen.dart';
 
 void main() async {
-  /* WidgetsFlutterBinding.ensureInitialized;
+  WidgetsFlutterBinding.ensureInitialized();
 
   await SystemChrome.setPreferredOrientations(
     [
@@ -12,7 +12,7 @@ void main() async {
     ],
   );
 
-  SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle.dark); */
+  SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle.dark);
 
   runApp(const TikTokApp());
 }
